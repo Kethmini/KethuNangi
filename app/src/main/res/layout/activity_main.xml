@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC400"
+    android:fadingEdge="vertical"
+    tools:context=".Main2Activity">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="31dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1"
+        android:layout_marginBottom="140dp"
+        android:src="@drawable/school" />
+
+
+</RelativeLayout>
+
